@@ -12,8 +12,6 @@
 		4EF794A81D03156E00719446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794A61D03156E00719446 /* Main.storyboard */; };
 		4EF794AA1D03156E00719446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794A91D03156E00719446 /* Assets.xcassets */; };
 		4EF794AD1D03156E00719446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794AB1D03156E00719446 /* LaunchScreen.storyboard */; };
-		4EF794B71D03158300719446 /* MWTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF794B51D03158300719446 /* MWTabView.swift */; };
-		4EF794B81D03158300719446 /* MWTabViewScrollContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		4EF794A91D03156E00719446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF794AC1D03156E00719446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF794AE1D03156E00719446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EF794B51D03158300719446 /* MWTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWTabView.swift; sourceTree = "<group>"; };
-		4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWTabViewScrollContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +54,6 @@
 		4EF794A11D03156E00719446 /* MWTabViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				4EF794B41D03158300719446 /* MWTabView */,
 				4EF794A21D03156E00719446 /* AppDelegate.swift */,
 				4EF794A41D03156E00719446 /* ViewController.swift */,
 				4EF794A61D03156E00719446 /* Main.storyboard */,
@@ -67,15 +62,6 @@
 				4EF794AE1D03156E00719446 /* Info.plist */,
 			);
 			path = MWTabViewExample;
-			sourceTree = "<group>";
-		};
-		4EF794B41D03158300719446 /* MWTabView */ = {
-			isa = PBXGroup;
-			children = (
-				4EF794B51D03158300719446 /* MWTabView.swift */,
-				4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */,
-			);
-			path = MWTabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF794B81D03158300719446 /* MWTabViewScrollContainer.swift in Sources */,
 				4EF794A51D03156E00719446 /* ViewController.swift in Sources */,
 				4EF794A31D03156E00719446 /* AppDelegate.swift in Sources */,
-				4EF794B71D03158300719446 /* MWTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +288,7 @@
 				4EF794B31D03156E00719446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
