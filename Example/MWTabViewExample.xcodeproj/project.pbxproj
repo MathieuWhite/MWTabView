@@ -13,6 +13,12 @@
 		4EF794AA1D03156E00719446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794A91D03156E00719446 /* Assets.xcassets */; };
 		4EF794AD1D03156E00719446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794AB1D03156E00719446 /* LaunchScreen.storyboard */; };
 		5160545C2FAD05096F8A54B4 /* Pods_MWTabViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80119C0079FB2591EEB890D /* Pods_MWTabViewExample.framework */; };
+		5993247A1D037DF800733837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 599324791D037DF800733837 /* main.m */; };
+		5993247D1D037DF800733837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993247C1D037DF800733837 /* AppDelegate.m */; };
+		599324801D037DF800733837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993247F1D037DF800733837 /* ViewController.m */; };
+		599324831D037DF800733837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599324811D037DF800733837 /* Main.storyboard */; };
+		599324851D037DF800733837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599324841D037DF800733837 /* Assets.xcassets */; };
+		599324881D037DF800733837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599324861D037DF800733837 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,16 @@
 		4EF794A91D03156E00719446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF794AC1D03156E00719446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF794AE1D03156E00719446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599324761D037DF800733837 /* MWTabViewExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWTabViewExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		599324791D037DF800733837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5993247B1D037DF800733837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5993247C1D037DF800733837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5993247E1D037DF800733837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5993247F1D037DF800733837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		599324821D037DF800733837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		599324841D037DF800733837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599324871D037DF800733837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599324891D037DF800733837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B875E31F1204D0B774D02A0 /* Pods-MWTabViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTabViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		C80119C0079FB2591EEB890D /* Pods_MWTabViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTabViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF19AC9914B2A78F900E55B3 /* Pods-MWTabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTabViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -34,6 +50,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5160545C2FAD05096F8A54B4 /* Pods_MWTabViewExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599324731D037DF800733837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4EF794A11D03156E00719446 /* MWTabViewExample */,
+				599324771D037DF800733837 /* MWTabViewExampleObjC */,
 				4EF794A01D03156E00719446 /* Products */,
 				7D4B0797414C5D5CB6C4B75B /* Pods */,
 				388E917A72563AA67ADE1420 /* Frameworks */,
@@ -62,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4EF7949F1D03156E00719446 /* MWTabViewExample.app */,
+				599324761D037DF800733837 /* MWTabViewExampleObjC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +102,30 @@
 				4EF794AE1D03156E00719446 /* Info.plist */,
 			);
 			path = MWTabViewExample;
+			sourceTree = "<group>";
+		};
+		599324771D037DF800733837 /* MWTabViewExampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				5993247B1D037DF800733837 /* AppDelegate.h */,
+				5993247C1D037DF800733837 /* AppDelegate.m */,
+				5993247E1D037DF800733837 /* ViewController.h */,
+				5993247F1D037DF800733837 /* ViewController.m */,
+				599324811D037DF800733837 /* Main.storyboard */,
+				599324841D037DF800733837 /* Assets.xcassets */,
+				599324861D037DF800733837 /* LaunchScreen.storyboard */,
+				599324891D037DF800733837 /* Info.plist */,
+				599324781D037DF800733837 /* Supporting Files */,
+			);
+			path = MWTabViewExampleObjC;
+			sourceTree = "<group>";
+		};
+		599324781D037DF800733837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				599324791D037DF800733837 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7D4B0797414C5D5CB6C4B75B /* Pods */ = {
@@ -111,6 +160,23 @@
 			productReference = 4EF7949F1D03156E00719446 /* MWTabViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		599324751D037DF800733837 /* MWTabViewExampleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5993248C1D037DF800733837 /* Build configuration list for PBXNativeTarget "MWTabViewExampleObjC" */;
+			buildPhases = (
+				599324721D037DF800733837 /* Sources */,
+				599324731D037DF800733837 /* Frameworks */,
+				599324741D037DF800733837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWTabViewExampleObjC;
+			productName = MWTabViewExampleObjC;
+			productReference = 599324761D037DF800733837 /* MWTabViewExampleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +188,9 @@
 				ORGANIZATIONNAME = "Mathieu White";
 				TargetAttributes = {
 					4EF7949E1D03156E00719446 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					599324751D037DF800733837 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -140,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				4EF7949E1D03156E00719446 /* MWTabViewExample */,
+				599324751D037DF800733837 /* MWTabViewExampleObjC */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +222,16 @@
 				4EF794AD1D03156E00719446 /* LaunchScreen.storyboard in Resources */,
 				4EF794AA1D03156E00719446 /* Assets.xcassets in Resources */,
 				4EF794A81D03156E00719446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599324741D037DF800733837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599324881D037DF800733837 /* LaunchScreen.storyboard in Resources */,
+				599324851D037DF800733837 /* Assets.xcassets in Resources */,
+				599324831D037DF800733837 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +295,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		599324721D037DF800733837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599324801D037DF800733837 /* ViewController.m in Sources */,
+				5993247D1D037DF800733837 /* AppDelegate.m in Sources */,
+				5993247A1D037DF800733837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -230,6 +320,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4EF794AC1D03156E00719446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		599324811D037DF800733837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599324821D037DF800733837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		599324861D037DF800733837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599324871D037DF800733837 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -346,6 +452,30 @@
 			};
 			name = Release;
 		};
+		5993248A1D037DF800733837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWTabViewExampleObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieuwhite.MWTabViewExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5993248B1D037DF800733837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWTabViewExampleObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieuwhite.MWTabViewExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +496,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5993248C1D037DF800733837 /* Build configuration list for PBXNativeTarget "MWTabViewExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5993248A1D037DF800733837 /* Debug */,
+				5993248B1D037DF800733837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

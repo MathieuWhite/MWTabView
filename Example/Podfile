@@ -10,3 +10,11 @@ target 'MWTabViewExample' do
   # Pods for MWTabViewExample
 
 end
+
+target 'MWTabViewExampleObjC' do
+  
+  use_frameworks!
+  
+  pod 'MWTabView', :path => '../'
+  
+end
