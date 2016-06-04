@@ -1,0 +1,6 @@
+framework module MWTabView {
+  umbrella header "MWTabView-umbrella.h"
+
+  export *
+  module * { export * }
+}
