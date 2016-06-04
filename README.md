@@ -8,7 +8,7 @@
 
 A scrolling tab view for iOS made in Swift.
 
-![Demo](https://raw.githubusercontent.com/MathieuWhite/InifinteScroll-Swift/master/demo.gif?token=ABl_x3bbjO2ucduLRArI19gW6C2rE7A0ks5XRjuHwA%3D%3D)
+![Demo](https://raw.githubusercontent.com/MathieuWhite/MWTabView/master/demo.gif?token=ABl_xwtGSA6Rpu87Fbem3tiQznmQyxOjks5XXCvcwA%3D%3D)
 
 
 ## Example
