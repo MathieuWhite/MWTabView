@@ -1,7 +1,4 @@
 # MWTabView
-A scrolling tab view for iOS made in Swift.
-
-# MWTabView
 
 [![Version](https://img.shields.io/cocoapods/v/MWTabView.svg?style=flat)](http://cocoapods.org/pods/MWTabView)
 [![License](https://img.shields.io/cocoapods/l/MWTabView.svg?style=flat)](http://cocoapods.org/pods/MWTabView)
