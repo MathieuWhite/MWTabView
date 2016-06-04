@@ -21,7 +21,7 @@ The required methods of the protocol provide the views to be displayed by the ta
 as inform the MWTabView object about the number of tabs it will contain. The data source may
 implement optional methods to configure various aspects of the tab view
 */
-protocol MWTabViewDataSource: NSObjectProtocol {
+public protocol MWTabViewDataSource: NSObjectProtocol {
     /**
     Tells the data source to return the number of tabs for the tab view. (required)
     
@@ -59,7 +59,7 @@ protocol MWTabViewDataSource: NSObjectProtocol {
    Optional methods of the protocol allow the delegate to manage color and size attributes
    and perform other actions.
 */
-protocol MWTabViewDelegate: NSObjectProtocol {
+public protocol MWTabViewDelegate: NSObjectProtocol {
     /**
     Asks the delegate to return the height of the header for the tab view.
     
@@ -141,7 +141,7 @@ protocol MWTabViewDelegate: NSObjectProtocol {
 
 
 // Optional MWTabViewDelegate Methods
-extension MWTabViewDelegate {
+public extension MWTabViewDelegate {
     func tabView(tabView: MWTabView, didSelectTabAtIndex index: UInt) { }
     func tabViewWillBeginScrollingAnimation(tabView: MWTabView, fromVisibleTabAtIndex index: UInt) { }
     func tabViewDidEndScrollingAnimation(tabView: MWTabView, onVisibleTabAtIndex index: UInt) { }
@@ -173,7 +173,7 @@ struct Attributes {
 }
 
 
-class MWTabView: UIView, UIScrollViewDelegate {
+public class MWTabView: UIView, UIScrollViewDelegate {
     
     // MARK: - Constants
     
@@ -280,15 +280,15 @@ class MWTabView: UIView, UIScrollViewDelegate {
     }
     
     /// The delegate of the tab view.
-    weak var delegate: MWTabViewDelegate?
+    public weak var delegate: MWTabViewDelegate?
     
     /// The data source of the tab view.
-    weak var dataSource: MWTabViewDataSource?
+    public weak var dataSource: MWTabViewDataSource?
     
     
     // MARK: - Initialization
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.initTabView()
     }
@@ -387,7 +387,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
     /**
     This method is called when the tab view object is added or removed from a superview.
     */
-    override func willMoveToSuperview(newSuperview: UIView?) {
+    override public func willMoveToSuperview(newSuperview: UIView?) {
         super.willMoveToSuperview(newSuperview)
         
         // The tab view is about to be added to a superview
@@ -755,7 +755,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
     - parameter colors:    the array of colors for our gradient
     - parameter locations: the array of locations for our gradient
     */
-    func setGradientForTabViewHeader(colors colors: [CGColor]) {
+    @nonobjc public func setGradientForTabViewHeader(colors colors: [CGColor]) {
         self.headerGradient?.removeFromSuperlayer()
             
         let gradientLayer: CAGradientLayer = CAGradientLayer()
@@ -772,7 +772,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
     
     - parameter view: the view to set as the background
     */
-    func setTabViewBackground(view view: UIView?) {
+    public func setTabViewBackground(view view: UIView?) {
         if (self.backgroundView != nil) {
             if (view != nil) {
                 // The background view already exists, let's replace it
@@ -844,11 +844,11 @@ class MWTabView: UIView, UIScrollViewDelegate {
     
     // MARK: - Auto Layout
 
-    override class func requiresConstraintBasedLayout() -> Bool {
+    override public class func requiresConstraintBasedLayout() -> Bool {
         return true
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         if (self.hasSetupConstraints == false) {
@@ -1087,7 +1087,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
     
     // MARK: - UIScrollViewDelegate Methods
     
-    func scrollViewWillBeginDragging(scrollView: UIScrollView) {
+    public func scrollViewWillBeginDragging(scrollView: UIScrollView) {
         // The header scroll view will be initiating the scroll
         if (scrollView == self.headerScrollView && self.isScrollingPage == false) {
             self.isScrollingHeader = true
@@ -1101,12 +1101,12 @@ class MWTabView: UIView, UIScrollViewDelegate {
         }
         
         self.headerScrollViewContainer?.dragging = true
-        
+
         // Notify the delegate that the tab view will begin scrolling
         self.delegate?.tabViewWillBeginScrollingAnimation(self, fromVisibleTabAtIndex: self.indexForCurrentTab())
     }
     
-    func scrollViewWillEndDragging(scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+    public func scrollViewWillEndDragging(scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         
         // Get the nearest tab (the tab which the scroll view will scroll to)
         var nearestTab: UInt = 0
@@ -1123,7 +1123,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
         self.delegate?.tabViewWillEndDragging(self, withHorizontalVelocity: velocity.x, targetTabAtIndex: nearestTab)
     }
     
-    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    public func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         if (decelerate == false) {
             if (scrollView == self.headerScrollView && self.isScrollingPage == false) {
                 // The header scroll view is no longer being dragged
@@ -1137,7 +1137,7 @@ class MWTabView: UIView, UIScrollViewDelegate {
         }
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         if (scrollView == self.headerScrollView && self.isScrollingPage == false) {
             // The header scroll view is no longer being dragged
             self.scrollViewAnimationEnded()
@@ -1149,12 +1149,12 @@ class MWTabView: UIView, UIScrollViewDelegate {
         }
     }
     
-    func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
+    public func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
         // The scroll views are done it's animation after being tapped
         self.scrollViewAnimationEnded()
     }
     
-    func scrollViewDidScroll(scrollView: UIScrollView) {
+    public func scrollViewDidScroll(scrollView: UIScrollView) {
         // Load the pages that are now on the screen
         self.loadVisiblePages()
         

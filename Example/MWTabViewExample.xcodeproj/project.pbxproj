@@ -12,8 +12,7 @@
 		4EF794A81D03156E00719446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794A61D03156E00719446 /* Main.storyboard */; };
 		4EF794AA1D03156E00719446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794A91D03156E00719446 /* Assets.xcassets */; };
 		4EF794AD1D03156E00719446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF794AB1D03156E00719446 /* LaunchScreen.storyboard */; };
-		4EF794B71D03158300719446 /* MWTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF794B51D03158300719446 /* MWTabView.swift */; };
-		4EF794B81D03158300719446 /* MWTabViewScrollContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */; };
+		5160545C2FAD05096F8A54B4 /* Pods_MWTabViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80119C0079FB2591EEB890D /* Pods_MWTabViewExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +23,9 @@
 		4EF794A91D03156E00719446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF794AC1D03156E00719446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF794AE1D03156E00719446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EF794B51D03158300719446 /* MWTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWTabView.swift; sourceTree = "<group>"; };
-		4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWTabViewScrollContainer.swift; sourceTree = "<group>"; };
+		6B875E31F1204D0B774D02A0 /* Pods-MWTabViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTabViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		C80119C0079FB2591EEB890D /* Pods_MWTabViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTabViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF19AC9914B2A78F900E55B3 /* Pods-MWTabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWTabViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5160545C2FAD05096F8A54B4 /* Pods_MWTabViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		388E917A72563AA67ADE1420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80119C0079FB2591EEB890D /* Pods_MWTabViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EF794961D03156E00719446 = {
 			isa = PBXGroup;
 			children = (
 				4EF794A11D03156E00719446 /* MWTabViewExample */,
 				4EF794A01D03156E00719446 /* Products */,
+				7D4B0797414C5D5CB6C4B75B /* Pods */,
+				388E917A72563AA67ADE1420 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +69,6 @@
 		4EF794A11D03156E00719446 /* MWTabViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				4EF794B41D03158300719446 /* MWTabView */,
 				4EF794A21D03156E00719446 /* AppDelegate.swift */,
 				4EF794A41D03156E00719446 /* ViewController.swift */,
 				4EF794A61D03156E00719446 /* Main.storyboard */,
@@ -69,13 +79,13 @@
 			path = MWTabViewExample;
 			sourceTree = "<group>";
 		};
-		4EF794B41D03158300719446 /* MWTabView */ = {
+		7D4B0797414C5D5CB6C4B75B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4EF794B51D03158300719446 /* MWTabView.swift */,
-				4EF794B61D03158300719446 /* MWTabViewScrollContainer.swift */,
+				EF19AC9914B2A78F900E55B3 /* Pods-MWTabViewExample.debug.xcconfig */,
+				6B875E31F1204D0B774D02A0 /* Pods-MWTabViewExample.release.xcconfig */,
 			);
-			path = MWTabView;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EF794B11D03156E00719446 /* Build configuration list for PBXNativeTarget "MWTabViewExample" */;
 			buildPhases = (
+				C5391ED968F0048E2F50F386 /* [CP] Check Pods Manifest.lock */,
 				4EF7949B1D03156E00719446 /* Sources */,
 				4EF7949C1D03156E00719446 /* Frameworks */,
 				4EF7949D1D03156E00719446 /* Resources */,
+				A0DB4A60DB744B21E1D2FB29 /* [CP] Embed Pods Frameworks */,
+				08140F7BFBC127B476D85485 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,15 +157,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08140F7BFBC127B476D85485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DB4A60DB744B21E1D2FB29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5391ED968F0048E2F50F386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EF7949B1D03156E00719446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF794B81D03158300719446 /* MWTabViewScrollContainer.swift in Sources */,
 				4EF794A51D03156E00719446 /* ViewController.swift in Sources */,
 				4EF794A31D03156E00719446 /* AppDelegate.swift in Sources */,
-				4EF794B71D03158300719446 /* MWTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +322,7 @@
 		};
 		4EF794B21D03156E00719446 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF19AC9914B2A78F900E55B3 /* Pods-MWTabViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MWTabViewExample/Info.plist;
@@ -275,6 +335,7 @@
 		};
 		4EF794B31D03156E00719446 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B875E31F1204D0B774D02A0 /* Pods-MWTabViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MWTabViewExample/Info.plist;
@@ -304,6 +365,7 @@
 				4EF794B31D03156E00719446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

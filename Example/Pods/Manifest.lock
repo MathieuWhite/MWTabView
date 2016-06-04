@@ -1,0 +1,16 @@
+PODS:
+  - MWTabView (0.1.0)
+
+DEPENDENCIES:
+  - MWTabView (from `../`)
+
+EXTERNAL SOURCES:
+  MWTabView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MWTabView: 34d1c73e0bd85b141812a7bad594c0a019683355
+
+PODFILE CHECKSUM: 11fb8b57fb7ff0ea7d63798910f252b7e8115a28
+
+COCOAPODS: 1.0.1

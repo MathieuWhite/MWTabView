@@ -8,6 +8,8 @@
 
 import UIKit
 
+import MWTabView
+
 class ViewController: UIViewController, MWTabViewDataSource, MWTabViewDelegate {
     
     
