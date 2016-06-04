@@ -7,81 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B95C10F6162A981E57AA3932CEFD37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		4832B088F9D1DB55FA3924DB06B717E5 /* MWTabViewScrollContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521792B98A47B6A36133AFD247C57A84 /* MWTabViewScrollContainer.swift */; };
-		491C66F3EEEF5D60FA84E16D4D67E1C7 /* Pods-MWTabViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A819DCD68F7D4689DFAD7B5243041C81 /* Pods-MWTabViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EB581E440367DE8F03B20F9E8F30D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		61D1F82A2D0952567C61A7C411E18BDB /* MWTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF61DEBE22E1B104FF019E4FF30B3FB /* MWTabView-dummy.m */; };
-		7A95E69D1F79D17A3742D4FD724CD992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		9A56446CDC36EAF76E5796686A77F973 /* Pods-MWTabViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1C4952B662B3CF36D1CBD5B1808FC /* Pods-MWTabViewExample-dummy.m */; };
-		C4B2B3F7E23862DE6613EFD7EF16D446 /* MWTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6764825F54B9551B68F1E527CE5BDB /* MWTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C64EDD762119BB8B4FEF962583F1C641 /* MWTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB251C6D2251AD42FFEBB8FDD836BC6 /* MWTabView.swift */; };
+		008C21A18210BA7C2DF011723C454B8D /* MWTabView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389BBEC291B8D073146EFBB592660EFC /* MWTabView-iOS8.0-dummy.m */; };
+		0341A465A0C791F4D3FDACF181EA2F53 /* MWTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFDB77F5C8D1A10B554ECDB0A22497 /* MWTabView.swift */; };
+		09745372E14927E750F0CC01B45C544C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		31368301870977E9D3115B1DC88761E7 /* MWTabViewScrollContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D68C455242293748E173ACBCE8E5 /* MWTabViewScrollContainer.swift */; };
+		339E68753D15E20CDA35635E0D1B111B /* MWTabView-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8A1DC832C0BA9DCA79C203F262A14 /* MWTabView-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD176C86B3771EFC07DB5ECCB617EB8 /* MWTabViewScrollContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D68C455242293748E173ACBCE8E5 /* MWTabViewScrollContainer.swift */; };
+		476DDC6CE7C1DE36363811468FBC8C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		52F2DF55FF2B5AFAE8D44756DE790041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		70DAF14EEEFB7FA25F6766C3F437EEFD /* Pods-MWTabViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770C2C7208A489C70955DA49DE28931 /* Pods-MWTabViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B68754CB10264A64BB418B2E1C4D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		916F282C5873FFADA647B1C3BC5F7558 /* MWTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BFDB77F5C8D1A10B554ECDB0A22497 /* MWTabView.swift */; };
+		99B658773CBE3110718ADE7D5FA35BF7 /* Pods-MWTabViewExampleObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D05FE1097A51415D5774CA7D239391 /* Pods-MWTabViewExampleObjC-dummy.m */; };
+		BBC4AB56256A69D344E85D2469AA36C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		C41E95EFD91E66BEAF5E7F2F7A2FDEA1 /* Pods-MWTabViewExampleObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF08A0AD992CDF4BBC184D0A692338DB /* Pods-MWTabViewExampleObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8564E0F52DF945E1073CD573CC48125 /* Pods-MWTabViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E3280F07DC19A784575EB6F852CBC /* Pods-MWTabViewExample-dummy.m */; };
+		D07508F86A4CDB369CA72FEBCC5E70AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		DBDCC76C640D75DC2B4BB084DB5A84B0 /* MWTabView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 405EE11346327A29A6945DB58FC0BD24 /* MWTabView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78351B09CA12CA3791EC20CB3DC232F /* MWTabView-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033937E0403C4CEE5CD6D679F72EB6E3 /* MWTabView-iOS9.3-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		313D3A7422480D47F2CCF8319C4AA873 /* PBXContainerItemProxy */ = {
+		9A5426EA5FA0C2518A1A910DEB0F79D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 696BB9330D77DFE2D7D453FD5E82753A;
-			remoteInfo = MWTabView;
+			remoteGlobalIDString = 532AF6FE4A0CC51DFCDBAFE036EAA405;
+			remoteInfo = "MWTabView-iOS9.3";
+		};
+		DEB30BC789801F098F30945D74A7AECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DC8446EC6258CE2982B915BAF2AB4C;
+			remoteInfo = "MWTabView-iOS8.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A8314C983BBEE60D44F7B4E58F89C30 /* MWTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWTabView-prefix.pch"; sourceTree = "<group>"; };
-		11D5664CF949C2A9145615D12926EB5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46304A5268233DA0633AE3FE52B8A047 /* Pods-MWTabViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MWTabViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		521792B98A47B6A36133AFD247C57A84 /* MWTabViewScrollContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MWTabViewScrollContainer.swift; sourceTree = "<group>"; };
-		59E0721F0FFDADAD3F11B2B6FBEA15C4 /* MWTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60DC2CD74C8BDA66532E2F7F05026475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		674C69094B3FDB52AAFA6F61A410A7F8 /* Pods-MWTabViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MWTabViewExample.modulemap"; sourceTree = "<group>"; };
-		7DF61DEBE22E1B104FF019E4FF30B3FB /* MWTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MWTabView-dummy.m"; sourceTree = "<group>"; };
-		90BCC62D46F9219656EB007E430CA6F2 /* Pods-MWTabViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		9181276A9BF0E69F88A73E8044DC1F98 /* Pods_MWTabViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTabViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		033937E0403C4CEE5CD6D679F72EB6E3 /* MWTabView-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MWTabView-iOS9.3-dummy.m"; path = "../MWTabView-iOS9.3/MWTabView-iOS9.3-dummy.m"; sourceTree = "<group>"; };
+		0770C2C7208A489C70955DA49DE28931 /* Pods-MWTabViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MWTabViewExample-umbrella.h"; sourceTree = "<group>"; };
+		09326382FF63465786639CB32369F508 /* Pods-MWTabViewExampleObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExampleObjC-frameworks.sh"; sourceTree = "<group>"; };
+		0C345C116ED55E82A275F87C4F916D15 /* Pods-MWTabViewExampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		1447AAFC9C4A91BE70D31357922CDBEB /* Pods_MWTabViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTabViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887751D50B4B1079E15784181986948 /* MWTabView-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MWTabView-iOS9.3-prefix.pch"; path = "../MWTabView-iOS9.3/MWTabView-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		1B7FD69B460611064D69683C54B294D9 /* Pods-MWTabViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MWTabViewExample.modulemap"; sourceTree = "<group>"; };
+		2AA6191355DF01CF7FE2B3C6683A91CA /* Pods-MWTabViewExampleObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExampleObjC-resources.sh"; sourceTree = "<group>"; };
+		2BE1D2EABB4F23C3B816000E7B33F98D /* Pods-MWTabViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		30BAD41D98ABB9C5C4B1EA0723841F4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../MWTabView-iOS9.3/Info.plist"; sourceTree = "<group>"; };
+		389BBEC291B8D073146EFBB592660EFC /* MWTabView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MWTabView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		3DF75D6C0A6CC23A04A3D091BC15D55B /* Pods-MWTabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		405EE11346327A29A6945DB58FC0BD24 /* MWTabView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWTabView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		420427EFB346DD065187373B6D93BC1F /* MWTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0231D30A732093FFD2EC21CEAA8B77 /* Pods-MWTabViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MWTabViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		52F8A1DC832C0BA9DCA79C203F262A14 /* MWTabView-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MWTabView-iOS9.3-umbrella.h"; path = "../MWTabView-iOS9.3/MWTabView-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
+		5A0B4DF592CCA9B5450896299F017BB7 /* Pods-MWTabViewExampleObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MWTabViewExampleObjC-acknowledgements.plist"; sourceTree = "<group>"; };
+		6939DD6F35F84636EDD01BF9CDD8AF21 /* MWTabView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "MWTabView-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		6DC9D92DB8F8AB6DEAE842118AE25C9A /* Pods_MWTabViewExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWTabViewExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BFDB77F5C8D1A10B554ECDB0A22497 /* MWTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MWTabView.swift; sourceTree = "<group>"; };
+		7A78B85C5F6018C0241BA99C7BA8C048 /* MWTabView-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MWTabView-iOS9.3.xcconfig"; path = "../MWTabView-iOS9.3/MWTabView-iOS9.3.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B6764825F54B9551B68F1E527CE5BDB /* MWTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWTabView-umbrella.h"; sourceTree = "<group>"; };
+		9A092081DA5A73131AA1829FA06C5723 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17B8031B76BF754C7C8147124BF3B79 /* Pods-MWTabViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MWTabViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A819DCD68F7D4689DFAD7B5243041C81 /* Pods-MWTabViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MWTabViewExample-umbrella.h"; sourceTree = "<group>"; };
-		A93DE248AF4A9C07EC62155B78267150 /* MWTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MWTabView.modulemap; sourceTree = "<group>"; };
-		BBF1C4952B662B3CF36D1CBD5B1808FC /* Pods-MWTabViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MWTabViewExample-dummy.m"; sourceTree = "<group>"; };
-		C2D5038510D36B0AFC13AFD399306DEE /* Pods-MWTabViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExample-frameworks.sh"; sourceTree = "<group>"; };
-		CDB251C6D2251AD42FFEBB8FDD836BC6 /* MWTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MWTabView.swift; sourceTree = "<group>"; };
-		D27C2FD27E87E4FE0B46D4FFBA07B206 /* Pods-MWTabViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MWTabViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		E711FC9E6913667D6D2B8DB36397B1A5 /* MWTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MWTabView.xcconfig; sourceTree = "<group>"; };
-		E72EF4CF552BC69BCC645D2CC4D68ED0 /* Pods-MWTabViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExample-resources.sh"; sourceTree = "<group>"; };
+		B25759D180D2B10FCA99B9A1AFE8126B /* Pods-MWTabViewExampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E90B5BD2149B965E93164DCDB7E052 /* MWTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65E2198AA9FB33774608C24B571CD2D /* Pods-MWTabViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		B70D4BEDB1C136A4A757A345789AB32F /* Pods-MWTabViewExampleObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MWTabViewExampleObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C142A2C68D922FF46CEEE8254CE14235 /* Pods-MWTabViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWTabViewExample-resources.sh"; sourceTree = "<group>"; };
+		C8E3A7F2B39F7C5A53EC43466B955B52 /* Pods-MWTabViewExampleObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MWTabViewExampleObjC.modulemap"; sourceTree = "<group>"; };
+		D06759675FAF63F9271BB9E96DB872E8 /* MWTabView-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "MWTabView-iOS9.3.modulemap"; path = "../MWTabView-iOS9.3/MWTabView-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		D3BFA42A7FD06A5E5C3B50C39F59179E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA11A43B9207E4A0DA451837D262107 /* MWTabView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MWTabView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
 		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EEDC169F8ADFF89BBE2943C16394B2C0 /* Pods-MWTabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWTabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E924D68C455242293748E173ACBCE8E5 /* MWTabViewScrollContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MWTabViewScrollContainer.swift; sourceTree = "<group>"; };
+		EBB97424200FFAE632BFD9522B962802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED07A701D62E241C86324A0004272459 /* MWTabView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWTabView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		EF08A0AD992CDF4BBC184D0A692338DB /* Pods-MWTabViewExampleObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MWTabViewExampleObjC-umbrella.h"; sourceTree = "<group>"; };
+		F1D05FE1097A51415D5774CA7D239391 /* Pods-MWTabViewExampleObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MWTabViewExampleObjC-dummy.m"; sourceTree = "<group>"; };
+		F95E3280F07DC19A784575EB6F852CBC /* Pods-MWTabViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MWTabViewExample-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A9DBE3FFD5B42BA347CEA6D86301A24 /* Frameworks */ = {
+		2754E7A5CED64B1D221286A60B6FDE55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB581E440367DE8F03B20F9E8F30D7C /* Foundation.framework in Frameworks */,
+				09745372E14927E750F0CC01B45C544C /* Foundation.framework in Frameworks */,
+				BBC4AB56256A69D344E85D2469AA36C4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F99858DC381CFF5AFD06E8ACE0552617 /* Frameworks */ = {
+		57BAC7252C85CC9DB31D25108435B127 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B95C10F6162A981E57AA3932CEFD37 /* Foundation.framework in Frameworks */,
-				7A95E69D1F79D17A3742D4FD724CD992 /* UIKit.framework in Frameworks */,
+				52F2DF55FF2B5AFAE8D44756DE790041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1D48FC0F681C0BE4D3E2635C504F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B68754CB10264A64BB418B2E1C4D0B /* Foundation.framework in Frameworks */,
+				D07508F86A4CDB369CA72FEBCC5E70AD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BD0CE87164852FFE64795A075EE2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DDC6CE7C1DE36363811468FBC8C83 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		258693D205FB0BF8F9E1B91EF1353F34 /* Classes */ = {
+		02CB1FBFC6E70A03649F4DA1509F0530 /* Pods-MWTabViewExampleObjC */ = {
 			isa = PBXGroup;
 			children = (
-				CDB251C6D2251AD42FFEBB8FDD836BC6 /* MWTabView.swift */,
-				521792B98A47B6A36133AFD247C57A84 /* MWTabViewScrollContainer.swift */,
+				D3BFA42A7FD06A5E5C3B50C39F59179E /* Info.plist */,
+				C8E3A7F2B39F7C5A53EC43466B955B52 /* Pods-MWTabViewExampleObjC.modulemap */,
+				B70D4BEDB1C136A4A757A345789AB32F /* Pods-MWTabViewExampleObjC-acknowledgements.markdown */,
+				5A0B4DF592CCA9B5450896299F017BB7 /* Pods-MWTabViewExampleObjC-acknowledgements.plist */,
+				F1D05FE1097A51415D5774CA7D239391 /* Pods-MWTabViewExampleObjC-dummy.m */,
+				09326382FF63465786639CB32369F508 /* Pods-MWTabViewExampleObjC-frameworks.sh */,
+				2AA6191355DF01CF7FE2B3C6683A91CA /* Pods-MWTabViewExampleObjC-resources.sh */,
+				EF08A0AD992CDF4BBC184D0A692338DB /* Pods-MWTabViewExampleObjC-umbrella.h */,
+				B25759D180D2B10FCA99B9A1AFE8126B /* Pods-MWTabViewExampleObjC.debug.xcconfig */,
+				0C345C116ED55E82A275F87C4F916D15 /* Pods-MWTabViewExampleObjC.release.xcconfig */,
 			);
-			path = Classes;
+			name = "Pods-MWTabViewExampleObjC";
+			path = "Target Support Files/Pods-MWTabViewExampleObjC";
+			sourceTree = "<group>";
+		};
+		390F257C49BCA3F702F8127A2D4EBEA7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C54D1D409B29940075D7153B6A9557D /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -92,50 +160,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47DC432DAE3A23861583BAACA8A4F7ED /* Support Files */ = {
+		6C54D1D409B29940075D7153B6A9557D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				11D5664CF949C2A9145615D12926EB5D /* Info.plist */,
-				A93DE248AF4A9C07EC62155B78267150 /* MWTabView.modulemap */,
-				E711FC9E6913667D6D2B8DB36397B1A5 /* MWTabView.xcconfig */,
-				7DF61DEBE22E1B104FF019E4FF30B3FB /* MWTabView-dummy.m */,
-				0A8314C983BBEE60D44F7B4E58F89C30 /* MWTabView-prefix.pch */,
-				9B6764825F54B9551B68F1E527CE5BDB /* MWTabView-umbrella.h */,
+				75BFDB77F5C8D1A10B554ECDB0A22497 /* MWTabView.swift */,
+				E924D68C455242293748E173ACBCE8E5 /* MWTabViewScrollContainer.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MWTabView";
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		66EE15FCBE42E74BFEDD7FBD59FFD486 /* Products */ = {
+		701CD6907A1A04E51FD6412F20D32114 /* Pods-MWTabViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				59E0721F0FFDADAD3F11B2B6FBEA15C4 /* MWTabView.framework */,
-				9181276A9BF0E69F88A73E8044DC1F98 /* Pods_MWTabViewExample.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		68C6C91CC32A942A20DD1C7E2EE361C3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				258693D205FB0BF8F9E1B91EF1353F34 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		75C55B8EA4F109167E0E3069AE5D00C9 /* Pods-MWTabViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				60DC2CD74C8BDA66532E2F7F05026475 /* Info.plist */,
-				674C69094B3FDB52AAFA6F61A410A7F8 /* Pods-MWTabViewExample.modulemap */,
-				46304A5268233DA0633AE3FE52B8A047 /* Pods-MWTabViewExample-acknowledgements.markdown */,
-				D27C2FD27E87E4FE0B46D4FFBA07B206 /* Pods-MWTabViewExample-acknowledgements.plist */,
-				BBF1C4952B662B3CF36D1CBD5B1808FC /* Pods-MWTabViewExample-dummy.m */,
-				C2D5038510D36B0AFC13AFD399306DEE /* Pods-MWTabViewExample-frameworks.sh */,
-				E72EF4CF552BC69BCC645D2CC4D68ED0 /* Pods-MWTabViewExample-resources.sh */,
-				A819DCD68F7D4689DFAD7B5243041C81 /* Pods-MWTabViewExample-umbrella.h */,
-				EEDC169F8ADFF89BBE2943C16394B2C0 /* Pods-MWTabViewExample.debug.xcconfig */,
-				90BCC62D46F9219656EB007E430CA6F2 /* Pods-MWTabViewExample.release.xcconfig */,
+				9A092081DA5A73131AA1829FA06C5723 /* Info.plist */,
+				1B7FD69B460611064D69683C54B294D9 /* Pods-MWTabViewExample.modulemap */,
+				A17B8031B76BF754C7C8147124BF3B79 /* Pods-MWTabViewExample-acknowledgements.markdown */,
+				4C0231D30A732093FFD2EC21CEAA8B77 /* Pods-MWTabViewExample-acknowledgements.plist */,
+				F95E3280F07DC19A784575EB6F852CBC /* Pods-MWTabViewExample-dummy.m */,
+				B65E2198AA9FB33774608C24B571CD2D /* Pods-MWTabViewExample-frameworks.sh */,
+				C142A2C68D922FF46CEEE8254CE14235 /* Pods-MWTabViewExample-resources.sh */,
+				0770C2C7208A489C70955DA49DE28931 /* Pods-MWTabViewExample-umbrella.h */,
+				3DF75D6C0A6CC23A04A3D091BC15D55B /* Pods-MWTabViewExample.debug.xcconfig */,
+				2BE1D2EABB4F23C3B816000E7B33F98D /* Pods-MWTabViewExample.release.xcconfig */,
 			);
 			name = "Pods-MWTabViewExample";
 			path = "Target Support Files/Pods-MWTabViewExample";
@@ -147,35 +193,67 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				AB3E00AA00DE163C24B641B346F779DD /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				66EE15FCBE42E74BFEDD7FBD59FFD486 /* Products */,
-				95D4D11D72CDCEE116D58DA9AFFDA73C /* Targets Support Files */,
+				832A9B0B158A138FE6D78E4F28597371 /* Products */,
+				B05D1486C2EE3F0C0E4136F19F227150 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		95D4D11D72CDCEE116D58DA9AFFDA73C /* Targets Support Files */ = {
+		832A9B0B158A138FE6D78E4F28597371 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75C55B8EA4F109167E0E3069AE5D00C9 /* Pods-MWTabViewExample */,
+				420427EFB346DD065187373B6D93BC1F /* MWTabView.framework */,
+				B2E90B5BD2149B965E93164DCDB7E052 /* MWTabView.framework */,
+				1447AAFC9C4A91BE70D31357922CDBEB /* Pods_MWTabViewExample.framework */,
+				6DC9D92DB8F8AB6DEAE842118AE25C9A /* Pods_MWTabViewExampleObjC.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888944BA34FE9794CB57DA3FC391068B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30BAD41D98ABB9C5C4B1EA0723841F4A /* Info.plist */,
+				EBB97424200FFAE632BFD9522B962802 /* Info.plist */,
+				6939DD6F35F84636EDD01BF9CDD8AF21 /* MWTabView-iOS8.0.modulemap */,
+				DBA11A43B9207E4A0DA451837D262107 /* MWTabView-iOS8.0.xcconfig */,
+				389BBEC291B8D073146EFBB592660EFC /* MWTabView-iOS8.0-dummy.m */,
+				ED07A701D62E241C86324A0004272459 /* MWTabView-iOS8.0-prefix.pch */,
+				405EE11346327A29A6945DB58FC0BD24 /* MWTabView-iOS8.0-umbrella.h */,
+				D06759675FAF63F9271BB9E96DB872E8 /* MWTabView-iOS9.3.modulemap */,
+				7A78B85C5F6018C0241BA99C7BA8C048 /* MWTabView-iOS9.3.xcconfig */,
+				033937E0403C4CEE5CD6D679F72EB6E3 /* MWTabView-iOS9.3-dummy.m */,
+				1887751D50B4B1079E15784181986948 /* MWTabView-iOS9.3-prefix.pch */,
+				52F8A1DC832C0BA9DCA79C203F262A14 /* MWTabView-iOS9.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MWTabView-iOS8.0";
+			sourceTree = "<group>";
+		};
+		897398BCEA3E6A39A0EA6990FFCCBDFB /* MWTabView */ = {
+			isa = PBXGroup;
+			children = (
+				390F257C49BCA3F702F8127A2D4EBEA7 /* Pod */,
+				888944BA34FE9794CB57DA3FC391068B /* Support Files */,
+			);
+			name = MWTabView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AB3E00AA00DE163C24B641B346F779DD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD552F9F7A6BBC723E8E82C700DD3E33 /* MWTabView */,
+				897398BCEA3E6A39A0EA6990FFCCBDFB /* MWTabView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BD552F9F7A6BBC723E8E82C700DD3E33 /* MWTabView */ = {
+		B05D1486C2EE3F0C0E4136F19F227150 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				68C6C91CC32A942A20DD1C7E2EE361C3 /* Pod */,
-				47DC432DAE3A23861583BAACA8A4F7ED /* Support Files */,
+				701CD6907A1A04E51FD6412F20D32114 /* Pods-MWTabViewExample */,
+				02CB1FBFC6E70A03649F4DA1509F0530 /* Pods-MWTabViewExampleObjC */,
 			);
-			name = MWTabView;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
@@ -190,58 +268,109 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E6FC7A873A39A2919042C60FDDE65A0 /* Headers */ = {
+		1317E9229C16AD0D22B698799D9FC1B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491C66F3EEEF5D60FA84E16D4D67E1C7 /* Pods-MWTabViewExample-umbrella.h in Headers */,
+				DBDCC76C640D75DC2B4BB084DB5A84B0 /* MWTabView-iOS8.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B865E7A2B25BD47BE1A264F7BA129D /* Headers */ = {
+		49DFCB0CC8A3A06E90002C120B761E14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B2B3F7E23862DE6613EFD7EF16D446 /* MWTabView-umbrella.h in Headers */,
+				70DAF14EEEFB7FA25F6766C3F437EEFD /* Pods-MWTabViewExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6BFC592A21B425268CF8B5EACB7CA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41E95EFD91E66BEAF5E7F2F7A2FDEA1 /* Pods-MWTabViewExampleObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F534C89B8DFEAA54812AE8F006D925A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339E68753D15E20CDA35635E0D1B111B /* MWTabView-iOS9.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4025395FCB6DD89437EA9E77BB9D86BC /* Pods-MWTabViewExample */ = {
+		2D2C36191559D20CC0E1849C02F797D9 /* Pods-MWTabViewExampleObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4672506B1BE93B3864AC6277145A57 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExample" */;
+			buildConfigurationList = 84067ED6D00669A12F19C08B67460741 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExampleObjC" */;
 			buildPhases = (
-				1B724074BE3C2B8787E61DBBBD899B5A /* Sources */,
-				0A9DBE3FFD5B42BA347CEA6D86301A24 /* Frameworks */,
-				0E6FC7A873A39A2919042C60FDDE65A0 /* Headers */,
+				24E58D22251F02FE1A5AF17BEA57488E /* Sources */,
+				74BD0CE87164852FFE64795A075EE2FA /* Frameworks */,
+				5B6BFC592A21B425268CF8B5EACB7CA2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				41B528401809BF1EE858C4AF72CA4717 /* PBXTargetDependency */,
+				C11F3BA5E01174C3ED0D597E676C68DF /* PBXTargetDependency */,
+			);
+			name = "Pods-MWTabViewExampleObjC";
+			productName = "Pods-MWTabViewExampleObjC";
+			productReference = 6DC9D92DB8F8AB6DEAE842118AE25C9A /* Pods_MWTabViewExampleObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		532AF6FE4A0CC51DFCDBAFE036EAA405 /* MWTabView-iOS9.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4442719DB843A89DC27719D077D870EF /* Build configuration list for PBXNativeTarget "MWTabView-iOS9.3" */;
+			buildPhases = (
+				723EEE95A13DE60DB685A87856983EDB /* Sources */,
+				74B1D48FC0F681C0BE4D3E2635C504F5 /* Frameworks */,
+				F534C89B8DFEAA54812AE8F006D925A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWTabView-iOS9.3";
+			productName = "MWTabView-iOS9.3";
+			productReference = B2E90B5BD2149B965E93164DCDB7E052 /* MWTabView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8E458E0008F57FF85E0FC6CC278A714 /* Pods-MWTabViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B160F005072F20881A8C0354DD2474 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExample" */;
+			buildPhases = (
+				CE1D22CE81C314C6184A1F1CA1D64417 /* Sources */,
+				57BAC7252C85CC9DB31D25108435B127 /* Frameworks */,
+				49DFCB0CC8A3A06E90002C120B761E14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E8558DAC5D443194A04E33F7796423 /* PBXTargetDependency */,
 			);
 			name = "Pods-MWTabViewExample";
 			productName = "Pods-MWTabViewExample";
-			productReference = 9181276A9BF0E69F88A73E8044DC1F98 /* Pods_MWTabViewExample.framework */;
+			productReference = 1447AAFC9C4A91BE70D31357922CDBEB /* Pods_MWTabViewExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		696BB9330D77DFE2D7D453FD5E82753A /* MWTabView */ = {
+		D0DC8446EC6258CE2982B915BAF2AB4C /* MWTabView-iOS8.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75708CB6A43D07E7D704090D379896AD /* Build configuration list for PBXNativeTarget "MWTabView" */;
+			buildConfigurationList = 9F331BC946014B6DAEF179396D668961 /* Build configuration list for PBXNativeTarget "MWTabView-iOS8.0" */;
 			buildPhases = (
-				82AD52069ACBC7F7CCF629A48AE18EAB /* Sources */,
-				F99858DC381CFF5AFD06E8ACE0552617 /* Frameworks */,
-				78B865E7A2B25BD47BE1A264F7BA129D /* Headers */,
+				DE7D7406B25F5F1CC144E587F09D47B3 /* Sources */,
+				2754E7A5CED64B1D221286A60B6FDE55 /* Frameworks */,
+				1317E9229C16AD0D22B698799D9FC1B7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MWTabView;
-			productName = MWTabView;
-			productReference = 59E0721F0FFDADAD3F11B2B6FBEA15C4 /* MWTabView.framework */;
+			name = "MWTabView-iOS8.0";
+			productName = "MWTabView-iOS8.0";
+			productReference = 420427EFB346DD065187373B6D93BC1F /* MWTabView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,50 +390,76 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 66EE15FCBE42E74BFEDD7FBD59FFD486 /* Products */;
+			productRefGroup = 832A9B0B158A138FE6D78E4F28597371 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				696BB9330D77DFE2D7D453FD5E82753A /* MWTabView */,
-				4025395FCB6DD89437EA9E77BB9D86BC /* Pods-MWTabViewExample */,
+				D0DC8446EC6258CE2982B915BAF2AB4C /* MWTabView-iOS8.0 */,
+				532AF6FE4A0CC51DFCDBAFE036EAA405 /* MWTabView-iOS9.3 */,
+				C8E458E0008F57FF85E0FC6CC278A714 /* Pods-MWTabViewExample */,
+				2D2C36191559D20CC0E1849C02F797D9 /* Pods-MWTabViewExampleObjC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B724074BE3C2B8787E61DBBBD899B5A /* Sources */ = {
+		24E58D22251F02FE1A5AF17BEA57488E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A56446CDC36EAF76E5796686A77F973 /* Pods-MWTabViewExample-dummy.m in Sources */,
+				99B658773CBE3110718ADE7D5FA35BF7 /* Pods-MWTabViewExampleObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82AD52069ACBC7F7CCF629A48AE18EAB /* Sources */ = {
+		723EEE95A13DE60DB685A87856983EDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D1F82A2D0952567C61A7C411E18BDB /* MWTabView-dummy.m in Sources */,
-				C64EDD762119BB8B4FEF962583F1C641 /* MWTabView.swift in Sources */,
-				4832B088F9D1DB55FA3924DB06B717E5 /* MWTabViewScrollContainer.swift in Sources */,
+				E78351B09CA12CA3791EC20CB3DC232F /* MWTabView-iOS9.3-dummy.m in Sources */,
+				916F282C5873FFADA647B1C3BC5F7558 /* MWTabView.swift in Sources */,
+				3FD176C86B3771EFC07DB5ECCB617EB8 /* MWTabViewScrollContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D22CE81C314C6184A1F1CA1D64417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8564E0F52DF945E1073CD573CC48125 /* Pods-MWTabViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7D7406B25F5F1CC144E587F09D47B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008C21A18210BA7C2DF011723C454B8D /* MWTabView-iOS8.0-dummy.m in Sources */,
+				0341A465A0C791F4D3FDACF181EA2F53 /* MWTabView.swift in Sources */,
+				31368301870977E9D3115B1DC88761E7 /* MWTabViewScrollContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41B528401809BF1EE858C4AF72CA4717 /* PBXTargetDependency */ = {
+		75E8558DAC5D443194A04E33F7796423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MWTabView;
-			target = 696BB9330D77DFE2D7D453FD5E82753A /* MWTabView */;
-			targetProxy = 313D3A7422480D47F2CCF8319C4AA873 /* PBXContainerItemProxy */;
+			name = "MWTabView-iOS8.0";
+			target = D0DC8446EC6258CE2982B915BAF2AB4C /* MWTabView-iOS8.0 */;
+			targetProxy = DEB30BC789801F098F30945D74A7AECA /* PBXContainerItemProxy */;
+		};
+		C11F3BA5E01174C3ED0D597E676C68DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MWTabView-iOS9.3";
+			target = 532AF6FE4A0CC51DFCDBAFE036EAA405 /* MWTabView-iOS9.3 */;
+			targetProxy = 9A5426EA5FA0C2518A1A910DEB0F79D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		050CA4AFDF06A4F475DC800E9D00207E /* Release */ = {
+		1CABB78E5E4AAD6B104854FA8086B842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90BCC62D46F9219656EB007E430CA6F2 /* Pods-MWTabViewExample.release.xcconfig */;
+			baseConfigurationReference = 2BE1D2EABB4F23C3B816000E7B33F98D /* Pods-MWTabViewExample.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -334,40 +489,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		0C6EF8EF6935921C80AA2B781F15C44A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEDC169F8ADFF89BBE2943C16394B2C0 /* Pods-MWTabViewExample.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MWTabViewExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MWTabViewExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -411,6 +532,162 @@
 			};
 			name = Debug;
 		};
+		508AEA28CA4BCBF559066ED8CD2A1602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA11A43B9207E4A0DA451837D262107 /* MWTabView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MWTabView-iOS8.0/MWTabView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MWTabView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MWTabView-iOS8.0/MWTabView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MWTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		521E56A52949B6702FFA77EEFE97DC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA11A43B9207E4A0DA451837D262107 /* MWTabView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MWTabView-iOS8.0/MWTabView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MWTabView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MWTabView-iOS8.0/MWTabView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MWTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		921EB1320CAFDC8CEDD47001F2705FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25759D180D2B10FCA99B9A1AFE8126B /* Pods-MWTabViewExampleObjC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MWTabViewExampleObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MWTabViewExampleObjC/Pods-MWTabViewExampleObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MWTabViewExampleObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94AF313725973365B355CF90E5035100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C345C116ED55E82A275F87C4F916D15 /* Pods-MWTabViewExampleObjC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MWTabViewExampleObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MWTabViewExampleObjC/Pods-MWTabViewExampleObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MWTabViewExampleObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9750D7A0492317316D64CBF922419B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A78B85C5F6018C0241BA99C7BA8C048 /* MWTabView-iOS9.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MWTabView-iOS9.3/MWTabView-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MWTabView-iOS9.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MWTabView-iOS9.3/MWTabView-iOS9.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MWTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -449,38 +726,9 @@
 			};
 			name = Release;
 		};
-		BE2B0EDAF8EBD6F6666DE8E9B3E24B8A /* Release */ = {
+		E7BBE576188AEE825AE21DDE11237970 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E711FC9E6913667D6D2B8DB36397B1A5 /* MWTabView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MWTabView/MWTabView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MWTabView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MWTabView/MWTabView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MWTabView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9A42C4EEB1ED15A90D39E3FDAD76C0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E711FC9E6913667D6D2B8DB36397B1A5 /* MWTabView.xcconfig */;
+			baseConfigurationReference = 3DF75D6C0A6CC23A04A3D091BC15D55B /* Pods-MWTabViewExample.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -491,14 +739,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MWTabView/MWTabView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MWTabView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MWTabViewExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MWTabView/MWTabView.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MWTabViewExample/Pods-MWTabViewExample.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MWTabView;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MWTabViewExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -507,6 +759,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E93CF8934234B36425687ACE385FE761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A78B85C5F6018C0241BA99C7BA8C048 /* MWTabView-iOS9.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MWTabView-iOS9.3/MWTabView-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MWTabView-iOS9.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MWTabView-iOS9.3/MWTabView-iOS9.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MWTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -520,20 +801,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75708CB6A43D07E7D704090D379896AD /* Build configuration list for PBXNativeTarget "MWTabView" */ = {
+		4442719DB843A89DC27719D077D870EF /* Build configuration list for PBXNativeTarget "MWTabView-iOS9.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9A42C4EEB1ED15A90D39E3FDAD76C0F /* Debug */,
-				BE2B0EDAF8EBD6F6666DE8E9B3E24B8A /* Release */,
+				A9750D7A0492317316D64CBF922419B0 /* Debug */,
+				E93CF8934234B36425687ACE385FE761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4672506B1BE93B3864AC6277145A57 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExample" */ = {
+		84067ED6D00669A12F19C08B67460741 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExampleObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C6EF8EF6935921C80AA2B781F15C44A /* Debug */,
-				050CA4AFDF06A4F475DC800E9D00207E /* Release */,
+				921EB1320CAFDC8CEDD47001F2705FC7 /* Debug */,
+				94AF313725973365B355CF90E5035100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F331BC946014B6DAEF179396D668961 /* Build configuration list for PBXNativeTarget "MWTabView-iOS8.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508AEA28CA4BCBF559066ED8CD2A1602 /* Debug */,
+				521E56A52949B6702FFA77EEFE97DC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B160F005072F20881A8C0354DD2474 /* Build configuration list for PBXNativeTarget "Pods-MWTabViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BBE576188AEE825AE21DDE11237970 /* Debug */,
+				1CABB78E5E4AAD6B104854FA8086B842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

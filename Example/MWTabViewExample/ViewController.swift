@@ -27,7 +27,7 @@ class ViewController: UIViewController, MWTabViewDataSource, MWTabViewDelegate {
         // Initialize the tab view
         let tabView = MWTabView()
         tabView.backgroundColor = UIColor.lightGrayColor()
-        tabView.setGradientForTabViewHeader(colors: [UIColor.whiteColor().CGColor, UIColor(white: 0.9, alpha: 1.0).CGColor])
+        tabView.setGradientForTabViewHeader(colors: [UIColor.whiteColor(), UIColor(white: 0.9, alpha: 1.0)])
         tabView.translatesAutoresizingMaskIntoConstraints = false
         tabView.dataSource = self
         tabView.delegate = self

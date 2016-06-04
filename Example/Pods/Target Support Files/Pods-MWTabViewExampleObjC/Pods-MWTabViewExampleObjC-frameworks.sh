@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/MWTabView-iOS8.0/MWTabView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MWTabView-iOS9.3/MWTabView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/MWTabView-iOS8.0/MWTabView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MWTabView-iOS9.3/MWTabView.framework"
 fi

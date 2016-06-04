@@ -1,5 +1,5 @@
 framework module MWTabView {
-  umbrella header "MWTabView-umbrella.h"
+  umbrella header "MWTabView-iOS9.3-umbrella.h"
 
   export *
   module * { export * }
