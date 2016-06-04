@@ -21,7 +21,7 @@ The required methods of the protocol provide the views to be displayed by the ta
 as inform the MWTabView object about the number of tabs it will contain. The data source may
 implement optional methods to configure various aspects of the tab view
 */
-public protocol MWTabViewDataSource: NSObjectProtocol {
+@objc public protocol MWTabViewDataSource: NSObjectProtocol {
     /**
     Tells the data source to return the number of tabs for the tab view. (required)
     
@@ -59,7 +59,7 @@ public protocol MWTabViewDataSource: NSObjectProtocol {
    Optional methods of the protocol allow the delegate to manage color and size attributes
    and perform other actions.
 */
-public protocol MWTabViewDelegate: NSObjectProtocol {
+@objc public protocol MWTabViewDelegate: NSObjectProtocol {
     /**
     Asks the delegate to return the height of the header for the tab view.
     
@@ -85,7 +85,7 @@ public protocol MWTabViewDelegate: NSObjectProtocol {
     - parameter tabView: the tab view object informing the delegate about the new tab selection
     - parameter index:   the index of the new tab selected in tabView
     */
-    func tabView(tabView: MWTabView, didSelectTabAtIndex index: UInt)
+    optional func tabView(tabView: MWTabView, didSelectTabAtIndex index: UInt)
     
     /**
     Tells the delegate the the tab view scrolling animation will begin.
@@ -93,7 +93,7 @@ public protocol MWTabViewDelegate: NSObjectProtocol {
     - parameter tabView: the tab view object that is performing the scrolling animation
     - parameter index:   the index of the visible tab before the scrolling animation
     */
-    func tabViewWillBeginScrollingAnimation(tabView: MWTabView, fromVisibleTabAtIndex index: UInt)
+    optional func tabViewWillBeginScrollingAnimation(tabView: MWTabView, fromVisibleTabAtIndex index: UInt)
     
     /**
     Tells the delegate that the tab view scrolling animation has ended.
@@ -101,7 +101,7 @@ public protocol MWTabViewDelegate: NSObjectProtocol {
     - parameter tabView: the tab view object that is performing the scrolling animation
     - parameter index:   the index of the visible tab after the scrolling animation
     */
-    func tabViewDidEndScrollingAnimation(tabView: MWTabView, onVisibleTabAtIndex index: UInt)
+    optional func tabViewDidEndScrollingAnimation(tabView: MWTabView, onVisibleTabAtIndex index: UInt)
     
     /**
     Tells the delegate when the user finished dragging the content.
@@ -110,7 +110,7 @@ public protocol MWTabViewDelegate: NSObjectProtocol {
     - parameter velocity: the velocity of the tab view (in points) at the moment the touch was released
     - parameter index:    the expected centered index when the scrolling action decelerates to a stop
     */
-    func tabViewWillEndDragging(tabView: MWTabView, withHorizontalVelocity velocity: CGFloat, targetTabAtIndex index: UInt)
+    optional func tabViewWillEndDragging(tabView: MWTabView, withHorizontalVelocity velocity: CGFloat, targetTabAtIndex index: UInt)
     
     /**
     Tells the delegate that a scroll view in the tab view object is scrolling its content.
@@ -119,14 +119,14 @@ public protocol MWTabViewDelegate: NSObjectProtocol {
     - parameter offsetMultiplier:    the offset multiplier of the tab view's content
     - parameter velocity:            the velocity of the pan gesture on the tab view
     */
-    func tabView(tabView: MWTabView, didScrollWithOffsetMultiplier offsetMultiplier: CGFloat, horizontalVelocity velocity: CGFloat)
+    optional func tabView(tabView: MWTabView, didScrollWithOffsetMultiplier offsetMultiplier: CGFloat, horizontalVelocity velocity: CGFloat)
     
     /**
     Tells the delegate that the tab view did layout its subviews.
     
     - parameter tabView:   the tab view object that is laying out subviews
     */
-    func tabViewDidLayoutSubviews(tabView: MWTabView)
+    optional func tabViewDidLayoutSubviews(tabView: MWTabView)
     
     /**
     Asks the delegate if the tab view should recycle its views.
@@ -755,11 +755,19 @@ public class MWTabView: UIView, UIScrollViewDelegate {
     - parameter colors:    the array of colors for our gradient
     - parameter locations: the array of locations for our gradient
     */
-    @nonobjc public func setGradientForTabViewHeader(colors colors: [CGColor]) {
+    public func setGradientForTabViewHeader(colors colors: [UIColor]) {
         self.headerGradient?.removeFromSuperlayer()
             
         let gradientLayer: CAGradientLayer = CAGradientLayer()
-        gradientLayer.colors = colors
+
+        var gradientCGColors: [CGColorRef] = Array();
+
+        for aColor in colors {
+
+            gradientCGColors.append(aColor.CGColor)
+        }
+
+        gradientLayer.colors = gradientCGColors
         
         self.headerGradient = gradientLayer
         
